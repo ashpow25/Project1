@@ -1,26 +1,26 @@
 require_relative 'config/environment.rb'
 
 CLI.new
+binding.pry
+#prompt = TTY::Prompt.new
 
-prompt = TTY::Prompt.new
+#def clear
+    #system('clear')
+#end
 
-def clear
-    system('clear')
-end
+#start = prompt.ask("Hey there!  What's your favorite coin?")
 
-start = prompt.ask("Hey there!  What's your favorite coin?")
+c#lear
 
-clear
+#puts "Really?  #{start} isn't a bad choice, but..."
 
-puts "Really?  #{start} isn't a bad choice, but..."
-
-coin = prompt.yes?("do you want to hear some of the top to the MOON favorites?")
+#coin = prompt.yes?("do you want to hear some of the top to the MOON favorites?")
 
 
-clear
+#clear
 #puts "your favorite color is #{coin2}"
 
-#binding.pry
+
 
 
 #("What's your favorite of these coins?", ["BTC", "ADA", "VET", "ONE", "ANKR"])
